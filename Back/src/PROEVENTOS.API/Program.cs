@@ -13,6 +13,7 @@ namespace PROEVENTOS.API
     {
         public static void Main(string[] args)
         {
+            //teste
             CreateHostBuilder(args).Build().Run();
         }
 
