@@ -1,5 +1,8 @@
-﻿    namespace PROEVENTOS.API.Models
+﻿using System;
+
+namespace PROEVENTOS.API.Models
 {
+    [Serializable]
     public class Evento
     {
         public long EventoId { get; set; }
